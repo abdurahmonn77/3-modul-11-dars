@@ -160,20 +160,20 @@
 
 // 7-MASALA
 
-// var speed = prompt("Tezlikni kiriting:")
+var speed = prompt("Tezlikni kiriting:")
 
-// if (speed < 70) {
-//     console.log("Hammasi yaxshi");
-// }
-// else{
-//     let point = (speed - 70) / 5
-//     if(point > 12){
-//         console.log("Prava olindi");
-//     }
-//     else{
-//         console.log(point);
-//     }
-// }
+if (speed < 70) {
+    alert("Hammasi yaxshi");
+}
+else{
+    let point = Math.floor((speed - 70) / 5)
+    if(point > 12){
+        alert("Prava olindi");
+    }
+    else{
+        alert(point);
+    }
+}
 
 // 8-MASALA
 
@@ -266,8 +266,8 @@
 // var fun = 120 * euro
 // var spent = plane + hotel + fun
 // if (total >= spent) {
-//     console.log("Oq yo'l Alisher.");
+//     alert("Oq yo'l Alisher.");
 // }
 // else {
-//     console.log("Alisher, ozgina sabr qilish kerak bo'lar ekan.");
+//     alert("Alisher, ozgina sabr qilish kerak bo'lar ekan.");
 // }
